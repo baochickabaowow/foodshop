@@ -63,7 +63,6 @@ export default {
                 if (!check) {
                     this.itemsSelected.push([item.name, count, item.price])
                 }
-                
             }
         }, 
             fetchItems: function() {
